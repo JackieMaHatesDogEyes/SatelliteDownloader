@@ -4,6 +4,8 @@ from io import BytesIO
 
 from PIL import Image
 
+Image.MAX_IMAGE_PIXELS = None
+
 from tempfile import NamedTemporaryFile
 
 import os
